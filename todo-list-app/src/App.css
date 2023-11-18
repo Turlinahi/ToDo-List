@@ -1,4 +1,4 @@
-/* TodoApp.css */ 
+/* Default margin and padding, set background image, size, position */
 body {
   margin: 0;
   padding: 0;
@@ -6,10 +6,11 @@ body {
   background-size: cover;
   background-position: middle;
   background-repeat: no-repeat;
-  font-family: 'Arial', sans-serif; /* Set a fallback font */
-  color: #120101; /* Set text color to contrast with the background */
+  font-family: 'Arial', sans-serif; /* fallback font */
+  color: #120101; /* text color to contrast with the background */
 }
 
+/*main container */
 .todo-app {
   max-width: 400px;
   margin: auto;
@@ -19,6 +20,7 @@ body {
   border-radius: 16px;
 }
 
+/* the main heading */
 h1 {
   color: #333;
   text-align: center;
@@ -26,12 +28,14 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* the form element */
 form {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
+/* input fields */
 input {
   padding: 12px;
   font-size: 18px;
@@ -40,6 +44,7 @@ input {
   margin-bottom: 10px;
 }
 
+/* buttons */
 button {
   padding: 12px;
   font-size: 18px;
@@ -49,26 +54,31 @@ button {
   margin-bottom: 10px;
 }
 
-button.complete {
-  background-color: #4caf50; /* Green color for complete button */
+/* the 'complete' button */
+button {
+  background-color: #4caf50; 
   color: #fff;
   margin-right: 10px;
 }
 
+/* the 'delete' button */
 button.delete {
-  background-color: #f44336; /* Red color for delete button */
+  background-color: #f44336; 
   color: #fff;
 }
 
+/* Styling for button hover(when the mouse is over the element) effect */
 button:hover {
   opacity: 0.9;
 }
 
+/* Styling for unordered list */
 ul {
   list-style: none;
   padding: 0;
 }
 
+/* Styling for list items */
 li {
   background-color: #fff; /* White background for tasks */
   border-radius: 8px;
@@ -77,23 +87,25 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Align items vertically in the center */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-items: center; /* align items vertically in the center */
+  flex-wrap: wrap; /* allow items to wrap to the next line */
 }
 
+/* Styling for completed tasks */
 .completed {
   text-decoration: line-through;
   opacity: 0.7;
 }
 
+/* span element inside list items */
 li span {
   word-wrap: break-word;
   max-width: 100%;
   font-size: 16px;
-  flex: 1; /* Allow the span to grow and shrink */
+  flex: 1; /* allow the span to grow and shrink */
 }
 
-/* Added a little box shadow for a subtle lift */
+/* Added a little box shadow for a subtle lift on list item hover */
 li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
