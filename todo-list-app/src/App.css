@@ -56,14 +56,14 @@ button {
 
 /* the 'complete' button */
 button {
-  background-color: #4caf50; 
+  background-color: #87bd89; 
   color: #fff;
   margin-right: 10px;
 }
 
 /* the 'delete' button */
 button.delete {
-  background-color: #f44336; 
+  background-color: #e06c63; 
   color: #fff;
 }
 
