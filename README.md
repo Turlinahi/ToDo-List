@@ -2,7 +2,8 @@
 
 A simple and intuitive Todo List web application built with React.
 
-![image](https://github.com/Turlinahi/ToDo-List/assets/133703884/ff4d9290-2f76-4b87-9445-307b3df243ae)
+![image](https://github.com/Turlinahi/ToDo-List/assets/133703884/421f9a72-9db1-4589-885a-34fa0ee2a02b)
+
 
 ## Features
 
